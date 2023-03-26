@@ -6,7 +6,7 @@ import SimpleLightbox from 'simplelightbox';
 // Додатковий імпорт стилів
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-// ---------------- запит HTML
+// ---------------- запит HTML---------
 const KEY = '34347073-8f1b60398676bada9d735fc2f';
 const restAPI = '&image_type=photo&orientation=horizontal&safesearch=true';
 let page = 1;
