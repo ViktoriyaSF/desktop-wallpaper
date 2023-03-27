@@ -160,3 +160,9 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+// -------------тема день ніч --------------
+document.querySelector('.tumbler-wrapper').addEventListener('click', () => {
+  document.body.classList.toggle('night-mode');
+  // на галерею клас
+  galleryPhoto.classList.toggle('night-mode');
+});
