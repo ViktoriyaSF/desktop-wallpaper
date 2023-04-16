@@ -33,14 +33,14 @@ button:focus {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 0;
+  right: 5%;
   z-index: 1;
-  font-size: 18px;
+  font-size: 15px;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   border-radius: 50%;
 }
 
@@ -61,6 +61,7 @@ input:focus {
 #search-form {
   font: inherit;
   max-width: 320px;
+  margin-top: 45px;
   margin-bottom: 16px;
   text-align: center;
   margin-left: auto;
@@ -145,11 +146,9 @@ body.night-mode .tumbler {
 
 .tumbler-wrapper {
   position: absolute;
-  top: -36%;
-  right: -30%;
+  top: -105%;
+  right: 45%;
 
-  margin-top: 15px;
-  margin-left: auto;
   width: 50px;
   height: 30px;
   background-color: var(--dark);
